@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+
+<body>
+    <div class="pageHeader boxflex">
+        <div class="headerContent boxflex">
+            <div class="headerTitle">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="headerSearch">
+                <input type="text" name="search" id="search" value="search">
+            </div>
+            <div class="headerLogin">
+                <button onclick="changeText(this)">Login</button>
+            </div>
+        </div>
+    </div>
+    <div class="mainShape">
+        <div class="mainContent boxflex">
+            <div class="mainLeft">
+                <div class="definition1 frame boxflex">
+                    <div class="title1 textflex">
+                        <h2>ninja</h2>
+                        <h4>noun</h4>
+                        <p>Plural: ninjas</p>
+                        <br>
+                        <div class="likes1">
+                            <button class="likeButton" onclick="alert('Ninja was liked')">13 likes</button>
+                        </div>
+                    </div>
+                    <div class="text1">
+                        <p>A practitioner skilled in the <a href="">Japanese</a> are of <a href="">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="definition2 frame boxflex">
+                    <div class="title2 textflex">
+                        <h2>ninja</h2>
+                        <h4>noun</h4>
+                        <p>Plural: ninja</p>
+                        <br>
+                        <div class="likes2">
+                            <button class="likeButton">37 likes</button>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainRight frame">
+                <div class="dojonaryContent">
+                    <div class="title3">
+                        <h3>Dojonary is defines by YOU</h3>
+                    </div>
+                    <div class="addDefinition">
+                        <br>
+                        <button class="addDefButton" onclick="hide(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

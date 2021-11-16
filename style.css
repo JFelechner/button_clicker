@@ -1,0 +1,108 @@
+/*****************PAGE*****************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.boxflex {
+    display: flex;
+    gap: 1.25em;
+}
+
+.textflex{
+    display: flex;
+}
+
+/**************PAGE HEADER*******************/
+
+.pageHeader{
+    min-width: 60em;
+    min-height: 3.5em;
+}
+
+.headerContent{
+    background-color: lightgray;
+    min-width: 48em;
+    margin: 0em auto;
+    padding: 0em 1.5em;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#search{
+    min-width: 20em;
+}
+
+.headerLogin button{
+    color: whitesmoke;
+    background-color: lightskyblue;
+    box-shadow: .1em .1em .1em black;
+    width: 6em;
+    height: 2em;
+}
+
+
+/************Main Content************/
+
+.mainShape{
+    min-width: 60em;
+}
+
+.mainContent{
+    width: 48em;
+    margin: 1.5em auto;
+}
+
+.frame{
+    min-height: 5em;
+    border-color: black;
+    border-style: solid;
+    border-width: .125em;
+    margin-bottom: 1.5em;
+    padding: 1em;
+}
+
+.mainLeft{
+    flex: 2;
+}
+
+.mainRight{
+    flex: 1;
+}
+
+.definition1{
+    align-items: center;
+}
+
+.title1{
+    flex-flow: column;
+    align-items: center;
+}
+
+
+.definition2{
+    align-items: center;
+}
+
+.title2{
+    flex-flow: column;
+    align-items: center;
+}
+
+.likeButton{
+    color: black;
+    background-color:gold;
+    box-shadow: .1em .1em .1em black;
+    width: 6em;
+    height: 2em;
+}
+
+.addDefButton{
+    color: black;
+    background-color:lightgreen;
+    box-shadow: .1em .1em .1em black;
+    width: 10em;
+    height: 2em;
+}
